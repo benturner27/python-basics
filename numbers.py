@@ -38,3 +38,10 @@ print(type(h))
 #Reassinging variable h as a floating point and re-checking the type
 h = 27.6
 print(type(h))
+
+#basic assignment example
+income = 10000
+tax_rate = 0.1
+taxed_income = income * tax_rate
+
+print (taxed_income)
