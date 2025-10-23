@@ -31,3 +31,10 @@ print(g)
 #Order of operations (Brackets taking precedent)
 h = (2 + 5) * (10 + 4)
 print(h)
+
+#type assignment
+print(type(h))
+
+#Reassinging variable h as a floating point and re-checking the type
+h = 27.6
+print(type(h))
