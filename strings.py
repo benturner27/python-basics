@@ -22,3 +22,27 @@ print("Hello,\tworld!")
 
 #You can use the len function to check the length of a string
 print(len(c))
+
+#You can fetch the index of a character in a string and output it to the print function.
+print(c[3])
+
+#This also works for reverse indexing
+print(c[-3])
+
+#You can also slice sections of a string using the colon symbol in the index brackets
+print(c[5:])
+
+#This also works for slicing at the start of the string
+print(c[:5])
+
+#This also works when you're tyring to slice a section of the string that doesn't include the start of end points
+print(c[5:8])
+
+#You can also grab the whole string using the double colon notation, though this is rarely used
+print(c[::])
+
+#Though, the double notation is more commonly used for step sizing, such as grabbing every other character in a string
+print(c[::2])
+
+#Step sizing can also be used to grab specific characters in a range from the string
+print(c[3:13:3])
