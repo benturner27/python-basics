@@ -78,3 +78,17 @@ print(x)
 #Splits the string by the whitespace
 x = x.split()
 print(x)
+
+#There are also different ways that you can format a string when using the print function
+print("This is a string {}".format("INSERTED"))
+
+#Using the curly braces, string parameters can be inserted in any point of the string being printed
+print("The {} {} {}".format("fox", "brown", "quick"))
+
+#The format method inserts the strings in the order you supplied. You can add indexing in the curled brackets
+#For whenever you want the strings in a particular fashion
+print("The {2} {1} {0}".format("fox", "brown", "quick"))
+
+#You can also index the strings by assigning variables in the format methods and calling them in the curled brackets
+print("The {q} {b} {f}".format(f="fox", b="brown", q="quick"))
+
