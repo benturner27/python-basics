@@ -46,3 +46,35 @@ print(c[::2])
 
 #Step sizing can also be used to grab specific characters in a range from the string
 print(c[3:13:3])
+
+#String properties
+#Strings are immutable, which means that than cannot be changed and do not support item assignment
+name = "Sam"
+print(name)
+
+#If we wanted to change the name from Sam to Pam, would have to concatenate this with another string
+last_letters = name[1:]
+name = "P" + last_letters
+print(name)
+
+#You can also concatenate more than two strings together
+letter = "Z"
+print(letter)
+letter = letter * 10
+print(letter)
+
+#It is possible to access different methods for strings
+x = "Hello World"
+print(x)
+
+#Capitalises every character in the string
+x =x.upper()
+print(x)
+
+#Changes the string to all lowercase letters in the string
+x = x.lower()
+print(x)
+
+#Splits the string by the whitespace
+x = x.split()
+print(x)
