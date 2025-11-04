@@ -92,3 +92,11 @@ print("The {2} {1} {0}".format("fox", "brown", "quick"))
 #You can also index the strings by assigning variables in the format methods and calling them in the curled brackets
 print("The {q} {b} {f}".format(f="fox", b="brown", q="quick"))
 
+#There are also string literals, which simplifies the format method further
+name = "Jose"
+print(f"His name is {name}")
+
+#This also works for multiple data types where you want to insert into a print function
+name = "Ben"
+age = 25
+print(f"My name is {name} and I am {age} years old")

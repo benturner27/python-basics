@@ -45,3 +45,11 @@ tax_rate = 0.1
 taxed_income = income * tax_rate
 
 print (taxed_income)
+
+#You can also format floating point number to increase it's accuracy
+result = 100/777
+print(result)
+print("The result was {r:1.3f}".format(r=result))
+
+#The "r:1.3f" refers to the width and precision of the answer, where the 3f is referring to three positions after the
+#decimal
